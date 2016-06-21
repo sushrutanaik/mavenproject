@@ -11,7 +11,6 @@ public class DemoQATest {
 	private WebDriver driver;		
 	@Test				
 	public void testEasy() {	
-		//Test comment
 		driver.get("http://www.guru99.com/selenium-tutorial.html");  
 		String title = driver.getTitle();				 
 		Assert.assertTrue(title.contains("Free Selenium Tutorials")); 		

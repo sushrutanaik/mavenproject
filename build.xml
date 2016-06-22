@@ -121,4 +121,9 @@
         <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
         <antcall target="build"/>
     </target>
+	<target name="AntDemoTest">
+              	    <java classname="com.tests.AntDemoTest" failonerror="true" fork="yes">              	        
+              	        <classpath refid="SeleniumWebDriverTest.classpath"/>
+              	    </java>
+	</target>
 </project>

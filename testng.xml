@@ -5,11 +5,6 @@
     <classes>
       <class name="com.tests.DemoQATest"/>
     </classes>
-  </test> 
-  <test name="AntDemoTest">
-    <classes>
-      <class name="com.tests.AntDemoTest"/>
-    </classes>
-  </test> 
+  </test>
   <!-- Tests -->
 </suite> <!-- Suite -->

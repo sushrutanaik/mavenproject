@@ -1,4 +1,4 @@
-package com.tests;
+package com.ant.tests;
 
 import org.openqa.selenium.By;		
 import org.openqa.selenium.WebDriver;		
@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;	
 import org.testng.annotations.AfterTest;
 
-public class AntDemoTest {
+public class DemoAntTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -5,6 +5,15 @@
     <classes>
       <class name="com.tests.DemoQATest"/>
     </classes>
+<<<<<<< HEAD
   </test>
+=======
+  </test> 
+  <test name="AntDemoTest">
+    <classes>
+      <class name="com.tests.AntDemoTest"/>
+    </classes>
+  </test> 
+>>>>>>> branch 'master' of https://github.com/sushrutanaik/mavenproject.git
   <!-- Tests -->
 </suite> <!-- Suite -->

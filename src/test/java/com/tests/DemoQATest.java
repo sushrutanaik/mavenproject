@@ -24,6 +24,7 @@ public class DemoQATest {
 		String title = driver.getTitle();				 
 		Assert.assertTrue(title.contains("FreeSeleniumTutorials")); 		
 	}	
+	
 	@BeforeTest
 	public void beforeTest() {
 		//initiate driver

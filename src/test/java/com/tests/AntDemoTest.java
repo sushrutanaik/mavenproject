@@ -18,7 +18,7 @@ public class AntDemoTest {
 		//launch application
 	    driver.get("http://www.guru99.com/selenium-tutorial.html");  
 		String title = driver.getTitle();				 
-		Assert.assertTrue(title.contains("Free Selenium Tutorials"));
+		Assert.assertTrue(title.contains("FreeSeleniumTutorials"));
 		//shutdown driver
 		driver.quit();
 	}

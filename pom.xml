@@ -51,20 +51,6 @@
           <version>2.9.1</version>
         </plugin>
         <plugin>
-				<groupId>com.lazerycode.jmeter</groupId>
-				<artifactId>jmeter-maven-plugin</artifactId>
-				<version>1.4.1</version>
-				<executions>
-					<execution>
-						<id>jmeter-tests</id>
-						<phase>verify</phase>
-						<goals>
-							<goal>jmeter</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-        <plugin>
 		<groupId>org.jacoco</groupId>
 		<artifactId>jacoco-maven-plugin</artifactId>
 		<version>0.5.7.201204190339</version>
@@ -87,8 +73,7 @@
 			        </goals>
 		       </execution>
 		</executions>
-		</plugin>
-		
+		</plugin>		
       </plugins>
     </pluginManagement>
   </build>
